@@ -22,6 +22,7 @@ body{
   color: #4d4646;
   text-transform: uppercase;
   position: relative;
+  cursor: pointer;
 }
 .btn::before,.btn::after{
   content:'';
