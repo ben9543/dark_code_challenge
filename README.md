@@ -30,6 +30,24 @@
 > Link : https://www.youtube.com/watch?v=7uEqQx4S50E
 
 
-#### 07 & 08 COMING SOON!
+#### 07. Awesome Product Card Using HTML CSS & JQuery
+
+> Link : https://www.youtube.com/watch?v=7hDklEEnP1I
+
+
+#### 08. CSS Buttons With Awesome Hover Animation Using HTML & CSS
+
+> Link : https://www.youtube.com/watch?v=CMgl_etzlTI
+
+
+#### 09. COOL MENU HOVER EFFECTS USING HTML AND CSS
+
+> Link : https://www.youtube.com/watch?v=wVSjKfLKvbk
+
+
+#### 10. Awesome accordion menu using only HTML & CSS
+
+> Link : https://www.youtube.com/watch?v=gnyYpX2nc1g
+
 
 
