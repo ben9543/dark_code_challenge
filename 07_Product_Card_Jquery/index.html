@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card__container">
+    <div class="card">
+
+      <div class="heading__container">
+        <h3 class="heading">ORIGINAL SHOES</h3>
+        <p class="description">NIKE AIRFORCE 1</p>
+      </div>
+
+      <div id="image" class="image__container"></div>
+
+      <div class="color__container">
+        <span class="color blue active" data-color="#1B9CFC" data-pic="url(blue.webp)"></span>
+        <span class="color khaki"data-color="#BDC581" data-pic="url(khaki.webp)"></span>
+        <span class="color white" data-color="#FFFFFF" data-pic="url(white.webp)"></span>
+        <span class="color red" data-color="#eb4d4b" data-pic="url(red.webp)"></span>
+      </div>
+      
+      <div class="payment__container">
+        <h3 class="price-tag">$90</h3>
+        <a href="#" class="add-to-cart">ADD TO CART</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    var colorButton = document.querySelectorAll(".color");
+    var length = colorButton.length
+    var body = document.getElementsByTagName("body");
+    var priceTag = document.getElementsByClassName("price-tag");
+    var addToCart = document.getElementsByClassName("add-to-cart");
+    var productImage = document.getElementById("image");
+    if (colorButton) {
+      for (var i=0; i<length; i++){
+        colorButton[i].addEventListener("click", toggle);
+      }
+    };
+    function toggle(event) {
+      var color = this.getAttribute("data-color");
+      var image = this.getAttribute("data-pic");
+      var BLACK = "#2f3542";
+      for (var i=0; i<length; i++){
+        if(colorButton[i].classList.contains("active")){
+          colorButton[i].classList.remove("active");
+        }
+      }
+      this.classList.add("active");
+      console.log(color)
+      if (color === "#FFFFFF"){
+        priceTag[0].style.color = BLACK;
+        addToCart[0].style.color = BLACK;
+        addToCart[0].style.borderColor = BLACK;
+        body[0].style.backgroundColor = color;
+        productImage.style.backgroundImage = image;
+      } else{
+        priceTag[0].style.color = color;
+        addToCart[0].style.color = color;
+        addToCart[0].style.borderColor = color;
+        body[0].style.backgroundColor = color;
+        productImage.style.backgroundImage = image;
+
+      }
+
+    };    
+  </script>
+</body>
+</html>

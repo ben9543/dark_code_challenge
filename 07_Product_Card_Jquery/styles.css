@@ -1,0 +1,96 @@
+body{
+  padding:0;
+  margin:0;
+  background-color: #1B9CFC;
+  font-family: 'Roboto', sans-serif;
+  transition: .2s linear;
+}
+.card__container{
+  padding:15px;
+  background-color: white;
+  width:420px;
+  height: 80%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase; 
+  border-radius: 2px;
+  box-shadow: -2px 3px 8px 1px rgba(0,0,0,0.3);
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  width:100%;
+  
+}
+.image__container{
+  background-image: url("blue.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+  transition: .2s linear;
+}
+.color__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+  width: 100%;
+  height: 17px;
+  position: relative;
+}
+.payment__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading{
+  font-size: 23px;
+}
+.description{
+  font-size: 13px;
+  color : #bbb
+}
+.color{
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: .2s linear;
+}
+.color:hover {
+  transform: scale(1.2);
+}
+.blue{
+  background-color: #1B9CFC;
+}
+.khaki{
+  background-color: #BDC581;
+}
+.white{
+  background-color: whitesmoke;
+}
+.red{
+  background-color: #eb4d4b;
+}
+.price-tag{
+  color: #1B9CFC;
+}
+.add-to-cart{
+  cursor: pointer;
+  text-decoration: none;
+  color: #1B9CFC;
+  border: 1px #1B9CFC solid;
+  border-radius: 21px;
+  padding:12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: 0.2s linear;
+}
+.add-to-cart:hover{
+  transform: scale(1.1);
+}
