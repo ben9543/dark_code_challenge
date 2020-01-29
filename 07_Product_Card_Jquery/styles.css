@@ -26,7 +26,7 @@ body{
   
 }
 .image__container{
-  background-image: url("blue.webp");
+  background-image: url("image/blue.webp");
   background-size: cover;
   background-position: center;
   width: 100%;

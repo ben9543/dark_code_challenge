@@ -20,10 +20,10 @@
       <div id="image" class="image__container"></div>
 
       <div class="color__container">
-        <span class="color blue active" data-color="#1B9CFC" data-pic="url(blue.webp)"></span>
-        <span class="color khaki"data-color="#BDC581" data-pic="url(khaki.webp)"></span>
-        <span class="color white" data-color="#FFFFFF" data-pic="url(white.webp)"></span>
-        <span class="color red" data-color="#eb4d4b" data-pic="url(red.webp)"></span>
+        <span class="color blue active" data-color="#1B9CFC" data-pic="url(image/blue.webp)"></span>
+        <span class="color khaki"data-color="#BDC581" data-pic="url(image/khaki.webp)"></span>
+        <span class="color white" data-color="#FFFFFF" data-pic="url(image/white.webp)"></span>
+        <span class="color red" data-color="#eb4d4b" data-pic="url(image/red.webp)"></span>
       </div>
       
       <div class="payment__container">
@@ -54,7 +54,6 @@
         }
       }
       this.classList.add("active");
-      console.log(color)
       if (color === "#FFFFFF"){
         priceTag[0].style.color = BLACK;
         addToCart[0].style.color = BLACK;
@@ -67,9 +66,7 @@
         addToCart[0].style.borderColor = color;
         body[0].style.backgroundColor = color;
         productImage.style.backgroundImage = image;
-
       }
-
     };    
   </script>
 </body>
