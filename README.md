@@ -48,14 +48,18 @@
 > [Link](https://www.youtube.com/watch?v=gnyYpX2nc1g)
 
 <br/>
---- From Here Speed CSS Challenge ---
+--- From Here Using Chart.js ---
 <br/>
 
-#### 11. Calendar App UI
+#### 11. Getting Started With Chart.js
 
-> [Link](https://www.youtube.com/watch?v=VFRRqfhvejI)
+> [Link](https://www.youtube.com/watch?v=sE08f4iuOhA)
 
-#### 12. Calculator With HTML, CSS, JS
+#### 12. Graphing with Chart.js - Working With Data & APIs in JavaScript
 
-> [Link](https://www.youtube.com/watch?v=JDiurjhpOXA)
+> [Link](https://www.youtube.com/watch?v=5-ptp9tRApM)
+
+#### 13. Svelte with Chart.js
+
+> [Link](https://www.youtube.com/watch?v=s7rk2b1ioVE&t=131s)
 
