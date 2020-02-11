@@ -66,3 +66,11 @@
 #### 14. Slideshow With Navigation Buttons Using Only HTML & CSS
 
 >[Link](https://www.youtube.com/watch?v=9Irz0c-6UGw)
+
+#### 15. Awesome Loading Animation Using Only HTML & CSS
+
+>[Link](https://www.youtube.com/watch?v=TgwcGBOPAak&t=21s)
+
+#### 16. Animated Login Form Using Only HTML & CSS
+
+>[Link](https://www.youtube.com/watch?v=HV7DtH3J2PU)
